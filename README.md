@@ -1,8 +1,10 @@
 # ga-gtm-validator
 Validates GA Custom Dimensions and GTM tags across a given set of GA properties and containers
 
-# Init
+# Requirements
+You need to setup both GA and GTM APIs in the Google Cloud console. Create new Installed Application projects, and download the client secret JSON for Google Analytics (name it **client_secrets_ga.json**) and the client secret JSON for the GTM V2 API (name it **client_secrets_gtm.json**).
 
+# Init
 Create file **fetch_source.py** with the following structure defined within:
 ```
 properties = {
