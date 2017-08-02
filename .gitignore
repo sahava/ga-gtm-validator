@@ -1,3 +1,6 @@
 *.dat
 *.json
 fetch_source.py
+*.pyc
+*.csv
+*.zip
